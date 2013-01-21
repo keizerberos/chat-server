@@ -10,7 +10,7 @@ process.title = 'node-chat';
 var webSocketsServerPort = 80;
 
 // websocket and http servers
-var webSocketServer = require('websocket').server;
+var webSocketServer = require('node_modules\websocket').server;
 var http = require('http');
 
 /**

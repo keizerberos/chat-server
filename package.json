@@ -6,9 +6,6 @@
     "dependencies": {
         "websocket": "1.0.x"
     },
-    "bundleDependencies": {
-    	"semver"
-    },
     "homepage": "https://github.com/keizerberos/chat-server",
     "scripts": {
         "start": "app.js"

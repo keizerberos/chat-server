@@ -1,16 +1,21 @@
 {
-	"name": "chatantrax",
-	"version": "0.0.1",
-	"dependencies": {
-		"express": "",
-		"websocket": "1.0.x"
-	},
-	"subdomain": "antrax.host56.com",
-	"domains": "antrax.host56.com",
-	"scripts": {
-		"start": "app.js"
-	},
-	"engines": {
-		"node": "0.8.x"
-	}
+    "author": "Nodejitsu <info@nodejitsu.com>",
+    "name": "chatantrax",
+    "description": "A simple chat",
+    "version": "0.0.1",
+    "dependencies": {
+        "websocket": "1.0.x"
+    },
+    "homepage": "https://github.com/keizerberos/chat-server",
+    "scripts": {
+        "start": "app.js"
+    },
+    "engines": {
+        "node": "0.8.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keizerberos/chat-server.git"
+    },
+    "subdomain": "keizerberos.chat-server"
 }

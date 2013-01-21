@@ -9,7 +9,7 @@
     "bundleDependencies": {
     	"semver"
     },
-    
+    "homepage": "https://github.com/keizerberos/chat-server",
     "scripts": {
         "start": "app.js"
     },
@@ -19,6 +19,9 @@
     "scripts": {
     	"start": "node app.js"
   	},
-    
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keizerberos/chat-server.git"
+    },
     "subdomain": "keizerberos.chat-server"
 }

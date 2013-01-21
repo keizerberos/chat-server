@@ -1,0 +1,16 @@
+{
+	"name": "chatantrax",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "",
+		"websocket": "1.0.x"
+	},
+	"subdomain": "antrax.host56.com",
+	"domains": "antrax.host56.com",
+	"scripts": {
+		"start": "app.js"
+	},
+	"engines": {
+		"node": "0.8.x"
+	}
+}

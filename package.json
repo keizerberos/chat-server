@@ -6,16 +6,19 @@
     "dependencies": {
         "websocket": "1.0.x"
     },
-    "homepage": "https://github.com/keizerberos/chat-server",
+    "bundleDependencies": {
+    	"semver"
+    },
+    
     "scripts": {
         "start": "app.js"
     },
     "engines": {
         "node": "0.8.x"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/keizerberos/chat-server.git"
-    },
+    "scripts": {
+    	"start": "node app.js"
+  	},
+    
     "subdomain": "keizerberos.chat-server"
 }
